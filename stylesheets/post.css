@@ -178,11 +178,11 @@ body {
     height: fit-content;
     padding: 5px;
     margin: 5px;
-    color: #1ED760;
+    color: #ED2226;
 }
 .voted-button:hover {
     background-color: var(--light);
-    color: #1ED760;
+    color: #ED2226;
     cursor: pointer;
 }
 

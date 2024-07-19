@@ -7,8 +7,18 @@
     --light: #232428;
     --white: #F1F6F9;
     --border: #343536;
-    --color: #1ED760;
+    --color: #ED2226;
     color: var(--white);
+}
+
+.home {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 49px;
+    margin-top: 12px;
 }
 
 .header {
@@ -37,9 +47,10 @@
 .logo {
     display: inline-block;
     background-image: url('../images/logo.png');
-    background-size: 32px 40px;
-    height: 40px;
-    width: 32px;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
 }
 
 a {

@@ -6,8 +6,12 @@
   --light: #232428;
   --white: #F1F6F9;
   --border: #343536;
-  --color: #1ED760;
+  --color: #ED2226;
   color: var(--white);
+}
+
+.red {
+  color: var(--color);
 }
 
 body {
@@ -27,9 +31,10 @@ hr {
 .logo {
   display: inline-block;
   background-image: url('../images/logo.png');
-  background-size: 44px 52px;
-  height: 52px;
-  width: 44px;
+  background-size: 250px 250px;
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
 }
 
 

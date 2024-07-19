@@ -4,7 +4,7 @@
     --primary: #121212;
     --secondary:#232428;
     --contrast: #f2f3f5;
-    --accent: #1ED760;
+    --accent: #ED2226;
     --border: #343536;
     color: var(--contrast);
     font-family: 'SF Pro Display', sans-serif;
@@ -94,9 +94,10 @@ body {
 .logo {
     display: inline-block;
     background-image: url('../images/logo.png');
-    background-size: 32px 40px;
-    height: 40px;
-    width: 32px;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
 }
 
 a {
